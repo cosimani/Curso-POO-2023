@@ -39,7 +39,6 @@ Instalación de herramientas
 
 :QtCreator: 
 	- Si hay instaladas versiones anteriores de Qt, desinstalarlas ejecutando C:\\Qt\\MaintenanceTool.exe y tildando Uninstall only 
-	- Descargar el `Instalador Online <https://www.qt.io/download-thank-you?hsLang=en>`_
 	- Se recomienda este instalador Offline: `https://download.qt.io/archive/qt/5.14/5.14.1 <https://download.qt.io/archive/qt/5.14/5.14.1>`_
 	- Importante la instalación de: 'Biblioteca Qt 5.14.1'  'Qt Creator'  'MinGW 7.3.0 64-bit'
 

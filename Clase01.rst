@@ -38,16 +38,13 @@ Instalación de herramientas
 ===========================
 
 :QtCreator: 
-	- Si hay instaladas versiones anteriores de Qt, desinstalarlas ejecutando C:\\Qt\\MaintenanceTool.exe y tildando Uninstall only 
+	- Si hay instaladas versiones anteriores de Qt, desinstalarlas con C:\\Qt\\MaintenanceTool.exe y tildando Uninstall only 
 	- Se recomienda este instalador Offline: `https://download.qt.io/archive/qt/5.14/5.14.1 <https://download.qt.io/archive/qt/5.14/5.14.1>`_
 	- Importante la instalación de: 'Biblioteca Qt 5.14.1'  'Qt Creator'  'MinGW 7.3.0 64-bit'
 
 :OpenSSL: 
 	- Descargar instalador desde la `Página de descarga <https://slproweb.com/products/Win32OpenSSL.html>`_
 	- Seleccionar el instalador `Win64 OpenSSL v3.1.0 <https://slproweb.com/download/Win64OpenSSL-3_1_0.exe>`_
-
-:OBS Studio: 
-	- Descargar instalador desde la `Página de descarga <https://obsproject.com/es>`_ e instalar
 
 
 Metodología didáctica

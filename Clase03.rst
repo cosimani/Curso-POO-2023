@@ -233,43 +233,6 @@ Cadena de caracteres
 	Puntero a char   const char *c = s1.c_str()
 
 
-Punteros
-========
-
-**Declaración**
-
-.. code-block:: c
-
-	int * entero;     // entero es un puntero a int
-	char * caracter;  // puntero a char
-
-	entero      es el puntero
-	*entero     es el contenido
-
-
-**Punteros a variables**
-
-.. code-block:: c
-
-	int entero;         // entero es una variable int
-	int * pEntero;      // pEntero es un puntero a int
-	pEntero = &entero;  // &entero es la dirección de memoria donde se almacena entero
-
-**Arrays y punteros**
-
-.. code-block:: c
-
-	int miArray[ 10 ];	// miArray es como un puntero al primer elemento
-	int* puntero;
-
-	puntero = miArray;  // similar a:  puntero = &miArray[0];
-	( *puntero )++;     // equivale a miArray[0]++;  // incrementa
-	puntero++;          // equivale a &miArray[1];   // se mueve una posición
-
-	puntero = puntero + 3;  // se desplaza 3 posiciones int
-
-
-
 Ejercicio 1:
 ============
 

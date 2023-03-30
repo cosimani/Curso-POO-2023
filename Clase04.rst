@@ -9,12 +9,8 @@ Clase 04 - POO 2023
 Registro en video de algunos temas de la clase de hoy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`Función genérica 2021 <https://www.youtube.com/watch?v=PkmAW31KuV0>`_ 
-
-`Función genérica - arrays - string - punteros 2022 <https://www.youtube.com/watch?v=gdrMyvjf7M4>`_ 
 
 `Clases 2021 <https://www.youtube.com/watch?v=dH0WqMW3-_w>`_ 
-
 
 
 Punteros
@@ -52,74 +48,6 @@ Punteros
 
 	puntero = puntero + 3;  // se desplaza 3 posiciones int
 
-
-
-
-Función Genérica
-================
-
-- Supongamos que debemos implementar una función que imprima en la salida los valores de un array de enteros:
-
-.. code-block:: c
-
-	void imprimir ( int v[], int cantidad )  {
-	    for ( int i = 0 ; i < cantidad ; i++ )
-	        std::cout << v[ i ] << " ";
-	    std::cout << std::endl;
-	}
-
-	int main( int, char ** )  {
-	    int v1[ 5 ] = { 5, 2, 4, 1, 6 };
-	    imprimir( v1, 3 );
-
-	    return 0;
-	}
-
-- Ahora necesitamos la impresión de un array de float
-
-.. code-block:: c
-
-	void imprimir( float v[], int cantidad );
-
-- Vemos que las versiones se diferencian por el tipo de datos del array. Entonces podemos utilizar lo siguiente:
-
-.. code-block:: c
-
-	template < class T > void imprimir ( T v[], int cantidad )  {
-	    for ( int i=0 ; i < cantidad ; i++ )
-	        std::cout << v[ i ] << " ";
-	    std::cout << std::endl;
-	}
-
-	int main( int, char ** )  {
-	    int v1[ 5 ] = { 5, 2, 4, 1, 6 };
-	    float v2[ 4 ] = { 2.3, 5.1, 0, 2 };
-
-	    imprimir( v1, 5 );  // qué pasa si pongo cantidad 10 -> Publica basura
-	    imprimir( v2, 2 );
-
-	    return 0;
-	}
-
-- El compilador utiliza el código de la función genérica como plantilla para crear automáticamente dos funciones sustituyendo T por el tipo de dato concreto.
-
-.. code-block:: c
-
-	Con T = int     utiliza -->     void imprimir( int v[], int cantidad )
-
-	Con T = float   utiliza -->     void imprimir( float v[], int cantidad )
-
-- Aquí, la única operación que realizamos sobre los valores de tipo T es:
-
-.. code-block:: c
-
-	std::cout << v[ i ]
-
-- Esto pone una restricción, ya que sólo se admitirá los tipos de datos para los que se puedan imprimir en pantalla con:
-
-.. code-block:: c
-
-	std::cout <<
 
 
 
@@ -302,18 +230,9 @@ Clases
 	}
 	
 	
+
+
 Ejercicio 6:
-============
-
-- Punto de partida: Empty qmake Project
-- Crear una función genérica que imprima por consola sus valores ordenados
-- Es decir, se le pasa un array con sus valores en cualquier orden, y la función genérica los imprime ordenados
-- Que el prototipo sea: ``template < class T > void imprimir( T * v, int cantidad, bool mayor_a_menor );``
-- Utilizar el método de ordenamiento por inserción
-- Probar esta función en main utilizando dos arrays (int y float) y ordenar de mayor a menor y el otro al revés
-
-
-Ejercicio 7:
 ============
 
 - Punto de partida: Empty qmake Project
@@ -321,7 +240,7 @@ Ejercicio 7:
 - Agregar uno o más constructores, agregar sus métodos y sus atributos
 - Crear algunos objetos de esta clase en la función main
 
-Ejercicio 8:
+Ejercicio 7:
 ============
 
 - Empty qmake Project

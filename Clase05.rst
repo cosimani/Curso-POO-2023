@@ -4,7 +4,7 @@
 
 Clase 05 - POO 2023
 ===================
-(Fecha: 1 de abril)
+(Fecha: 31 de marzo)
 
 Registro en video de algunos temas de la clase de hoy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

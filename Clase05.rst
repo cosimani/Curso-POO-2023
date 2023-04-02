@@ -13,7 +13,7 @@ Registro en video de algunos temas de la clase de hoy
 
 `Función genérica - arrays - string - punteros 2022 <https://www.youtube.com/watch?v=gdrMyvjf7M4>`_ 
 
-`getDatos de Poste - Convenciones 2021 <https://www.youtube.com/watch?v=7l0QZzqbQjI>`_
+
 
 
 
@@ -86,53 +86,6 @@ Función Genérica
 
 
 
-
-**¿ Cómo funciona el método getDatos() ?**
-
-
-.. code-block:: c
-
-	class Poste  {
-	private:
-	    int altura;
-	    int seccion;
-
-	public:
-	    Poste( int altura, int seccion );
-
-	    void getDatos( int & altura, int & seccion );
-	    void setDatos( int altura, int seccion );
-	};
-
-	Poste::Poste( int altura, int seccion ) : altura( altura ), seccion( seccion )  {
-	    
-	}
-
-	void Poste::getDatos( int & altura, int & seccion )  {
-	    altura = this->altura;
-	    seccion = this->seccion;
-	}
-
-	void Poste::setDatos( int altura, int seccion )  {
-	    this->altura = altura;
-	    this->seccion = seccion;
-	}
-
-
-
-Convenciones para escribir nuestro código
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- Los nombres de las clases, structs y enum comienzan con mayúsculas (usando ``UpperCamelCase``).
-- Nombres de variables, funciones y métodos comienzan con minúsculas (usando ``lowerCamelCase`` y con palabras separadas con guión bajo).
-
-- Ejemplos para nombres de clases: ``Persona`` - ``PrimeraClase`` - ``Ventana``
-- Ejemplos para nombres de variables y funciones: ``velocidad`` - ``sumarNumeros`` - ``alto_imagen`` - ``anchoImagen``
-
-**CamelCase**: Es escribir con la forma de jorobas de camello con las mayúsculas y minúsculas.
-
-UpperCamelCase: La primera letra de cada palabra es mayúscula. Ejemplo: ``EjemploDeUpperCamelCase``.
-lowerCamelCase: Igual a UpperCamelCase con excepción de la primer palabra. Ejemplo: ``ejemploDeLowerCamelCase``
 
 
 Ejercicio 8:

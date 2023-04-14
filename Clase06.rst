@@ -112,7 +112,7 @@ Primer aplicación en Qt con interfaz gráfica
 
 
 
-Ejercicio 10:
+Ejercicio 10
 ============
 
 - Punto de partida: Empty qmake Project

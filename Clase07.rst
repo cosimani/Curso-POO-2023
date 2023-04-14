@@ -11,8 +11,6 @@ Registro en video de algunos temas de la clase de hoy
 
 `Help signal slot QSlider QSpinBox 2021 <https://www.youtube.com/watch?v=BHog8TPjnos>`_
 
-`Help signal slot QSlider QSpinBox 2021 <https://www.youtube.com/watch?v=BHog8TPjnos>`_
-
 `QGridLayout - Q_OBJECT - Archivos del Qt Project 2021 <https://www.youtube.com/watch?v=KwtBKCs4B1c>`_
 
 
@@ -101,6 +99,15 @@ Macro Q_OBJECT
 	
 
 
+QGridLayout
+^^^^^^^^^^^
+
+- Ubica los widgets en una grilla
+- Con setColumnMinimumWidth() podemos setear el ancho mínimo de columna
+- Separación entre widget con setVerticalSpacing( int )
+- void addWidget( QWidget * widget, int fila, int columna, int spanFila, int spanCol )
+
+
 
 
 Ejercicio 11
@@ -126,4 +133,15 @@ Ejercicio 13
 
 - Punto de partida: Usar el código del ejemplo del control de volumen
 - Cuando el valor del QSlider se modifique, colocar como título de la ventana el mismo valor que tiene el QSlider. 
+
+
+Ejercicio 14
+============
+
+- Construir un login.
+- Usar asteriscos para la clave.
+- Detectar enter para simular la pulsación del botón.
+- Si la clave ingresada es admin:admin, la aplicación se cerrará.
+- Si se ingresa otra clave se borrará el texto de los QLineEdit.
+- Tener en cuenta que este ejercicio requiere conocer cómo se define un slot propio.
 

@@ -109,33 +109,14 @@ QGridLayout
 
 
 
-
 Ejercicio 11
-============
-
-- Crear una aplicación Qt que inicie con un botón que diga "Mostrar segundo boton y label"
-- Al hacer clic sobre este botón se deberá ocultar este botón, se visualizará un nuevo botón y un label
-- El segundo botón dirá "Ocultar label y mostrar boton final"
-- Al hacer clic en el segundo botón, se ocultará este y el label, para mostrar el último botón
-- El último botón dirá "Cerrar aplicacion" y cerrará la aplicación al presionarlo
-
-
-Ejercicio 12
-============
-
-- Teniendo el programa funcionando del entregable 6, modificarlo para que tenga el siguiente comportamiento
-- Cuando inicie la aplicación, sólo el botón estará visible
-- Al presionar el botón, se deberá visualizar el QLabel, el QWidget y el QLineEdit
-- Cuando escribimos dentro del QLineEdit y se presiona Enter, en ese momento se deberá cerrar la aplicación
-
-Ejercicio 13
 ============
 
 - Punto de partida: Usar el código del ejemplo del control de volumen
 - Cuando el valor del QSlider se modifique, colocar como título de la ventana el mismo valor que tiene el QSlider. 
 
 
-Ejercicio 14
+Ejercicio 12
 ============
 
 - Construir un login.

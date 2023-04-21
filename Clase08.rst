@@ -4,7 +4,7 @@
 
 Clase 08 - POO 2023
 ===================
-(Fecha: 20 de abril)
+(Fecha: 21 de abril)
 
 
 Registro en video de algunos temas de la clase de hoy
@@ -85,8 +85,8 @@ Dibujar a mano sobre un QWidget
 
 
 
-¿Cómo entregar ejercicios?
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+¿Cómo entregar proyectos de Qt?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Luego de finalizar el desarrollo del programa, cerrar el proyecto de QtCreator.
 - Eliminar el archivo .pro.user

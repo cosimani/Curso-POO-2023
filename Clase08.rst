@@ -101,21 +101,11 @@ Ejercicio 13
 - Formulario tendrá QLabels y QLineEdits para Legajo, Nombre y Apellido y un QPushButton
 - Si la clave ingresada es admin:1111, se cierra Login y se muestra Formulario
 
+
 Ejercicio 14
 ============
 
 .. figure:: imagenes/ejercicio_captcha.jpg
-
-Ejercicio 15
-============
-
-- Tener disponible un web server con PHP, MySQL y phpmyadmin
-- Diseñar una landing page personal, como estos ejemplos: `Ejemplo 1 <https://kawsar.design/>`_ o `Ejemplo 2 <https://alextass.com/>`_
-- Buscar también ejemplos en: `https://dribbble.com/tags/personal_landing_page <https://dribbble.com/tags/personal_landing_page>`_ 
-- Página para descargar íconos: `https://www.flaticon.es <https://www.flaticon.es/>`_
-	
-
-
 
 
 

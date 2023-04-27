@@ -210,7 +210,6 @@ Parámetros desde la línea de comandos
 
 
 
-
 Ejercicio 15
 ============
 
@@ -226,6 +225,7 @@ Ejercicio 16
 - Crear en el web server una tabla usuarios con datos personales y credenciales de acceso
 - Crear una API para loguear usuarios con el método GET de HTTP
 - Que devuelva "denegado" o que devuelva "aceptado::Juan Carlos::Ponce::juncaponce@gmail.com"
+
 
 Ejercicio 17
 ============
@@ -248,3 +248,12 @@ TG 2
 - Usar `Embeddings de OpenAI <https://www.youtube.com/watch?v=-XVkdIdli0I>`_ para introducir el texto que se dice en el video
 - En un QLineEdit hacerle una pregunta sobre el video
 
+
+Entrega para el 4 de mayo
+=========================
+
+- Hacer el Ejercicio 16
+- Crear una cuenta en GitHub para contener el trabajo práctico integrador y compartir el repositorio con el usuario ``cosimani``
+- En POO 2023, hay tres equipos ya definidos. En estos tres casos, crear un único repositorio en donde el equipo pueda colaborar.
+- Preparar la interfaz de un login de usuarios en Qt y subirlo al repositorio en una carpeta que se llame ``Qt``
+- La API para loguear a los usuarios, programarla en PHP y subirlo al repositorio en una carpeta que se llame ``php``

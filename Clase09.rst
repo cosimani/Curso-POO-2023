@@ -234,4 +234,17 @@ Ejercicio 17
 - Probar que si el usuario cambia el tamaño del login, que la imagen no se deforme
 
 
+TG 1
+====
+
+- Colocar una palabra o frase en un QLineEdit
+- En otro QLineEdit colocar el link a un video de Youtube
+- Al pulsar un QPushButton que nos diga cuántas veces se dice esa palabra en el video.
+
+TG 2
+====
+
+- En un QLineEdit colocar el link a un video de Youtube
+- Usar `Embeddings de OpenAI <https://www.youtube.com/watch?v=-XVkdIdli0I>`_ para introducir el texto que se dice en el video
+- En un QLineEdit hacerle una pregunta sobre el video
 

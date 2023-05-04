@@ -131,9 +131,6 @@ Ejercicio 19
 - La ventana puede tener cualquier tamaño pero llevará por título "Ventana".
 
 
-
-
-
 Ejercicio 20
 ============
 
@@ -149,4 +146,12 @@ Ejercicio 20
 	- Al presionar Borrar se buscará en el texto y se eliminarán
 
 
+Entrega Nro. 2 (para el 11 y/o 12 de mayo)
+==========================================
 
+- Es continuación de la entrega nro. 1
+- Luego del login validando con la tabla de usuarios disponible en la API propia, mostrar una ventana.
+- Si el usuario y/o clave es incorrecta, mostrar un mensaje con ``QMessageBox``
+- Si el usuario falla 3 veces la clave, bloquear por 5 minutos.
+- En la ventana que se muestra luego del login, colocar un QTextEdit mostrando la información sobre el tema exploratorio.
+- Utilizar HTML en el mismo QTextEdit.

@@ -225,8 +225,8 @@ TG 2
 - En un QLineEdit hacerle una pregunta sobre el video
 
 
-Entrega para el 5 de mayo
-=========================
+Entrega Nro.1 (para el 5 de mayo)
+=================================
 
 - Hacer el Ejercicio 16
 - Crear una cuenta en GitHub para contener el trabajo práctico integrador y compartir el repositorio con el usuario ``cosimani``

@@ -166,30 +166,6 @@ Volviendo a puntero a puntero
 	m[ 0 ][ 0 ][ 0 ] == ***m
 
 
-**Array como parámetro en funciones**
-
-.. code-block:: c
-
-	#include <iostream>
-	using namespace std;
-
-	void funcion( int miArray[] );
-	// Le estamos pasando un puntero al primer elemento del array.
-
-	int main()  {
-	    int miA[ 5 ] = { 0, 1, 2, 3, 4 };
-
-	    funcion( miA );
-
-	    cout << miA[ 0 ] << miA[ 1 ] << miA[ 2 ] << miA[ 3 ] << miA[ 4 ];
-	}
-
-	void funcion( int miArray[] )  {
-	    miArray[ 0 ] = 5;  // Las modificaciones quedarán.
-
-	    miArray[ 3 ] = 5; 
-	} 
-
 
 
 Parámetros desde la línea de comandos
@@ -249,7 +225,7 @@ TG 2
 - En un QLineEdit hacerle una pregunta sobre el video
 
 
-Entrega para el 4 de mayo
+Entrega para el 5 de mayo
 =========================
 
 - Hacer el Ejercicio 16

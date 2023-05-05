@@ -109,42 +109,6 @@ Ejercicio 18
 	}
 
 
-Ejercicio 19
-============
-	
-- Comenzar un proyecto vacío con QtCreator y diseñar un login de usuarios:
- 
-.. figure:: imagenes/login.png 
-
-- Tendrá un tamaño de 250x120 píxeles y llevará por título "Login".
-- El único usuario válido es: (DNI del alumno):(últimos 3 números del DNI)
-- Ocultar con asteriscos la clave.
-- Si el usuario y clave no es válido, sólo el campo de la clave se deberá limpiar.
-- Al fallar la clave 3 veces, la aplicación se cierra. 
-- Si el usuario es válido, entonces se oculta el login y se visualiza un nuevo QWidget como el que sigue:
-
-.. figure:: imagenes/ventana.png
-
-- Utilizar una imagen del disco aproximadamente de 100x100 píxeles.
-- Esta imagen se mostrará en el QWidget exactamente centrada.
-- Dibujar además un cuadrado que envuelva la imagen (como muestra el ejemplo).
-- La ventana puede tener cualquier tamaño pero llevará por título "Ventana".
-
-
-Ejercicio 20
-============
-
-- Crear una aplicación que inicie con un login validando el usuario admin:123
-- Luego de ingresar el usuario válido, mostrar un nuevo QWidget con las siguientes características:
-	- Definida en la clase Editor
-	- Contendrá un QTextEdit vacío, un QPushButton "Buscar" y un QLabel
-	- El usuario podrá escribir cualquier texto en el QTextEdit
-	- Al presionar "Buscar" se detectará automáticamente la cantidad de letras 'a' en el texto y colocará el resultado en el QLabel.
-- Luego de dejar funcionando lo anterior, agregar lo siguiente:
-	- Un QLineEdit y un QPushButton "Borrar"
-	- En este QLineEdit el usuario puede colocar una palabra o frase
-	- Al presionar Borrar se buscará en el texto y se eliminarán
-
 
 Entrega Nro. 2 (para el 11 y/o 12 de mayo)
 ==========================================

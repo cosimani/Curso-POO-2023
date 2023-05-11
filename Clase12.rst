@@ -11,6 +11,8 @@ Registro en video de algunos temas de la clase de hoy
 
 `Dibujar a mano - QByteArray - Preprocesador 2021 <https://www.youtube.com/watch?v=8Gu5_ejipus>`_
 
+`Riesgos de publicar contraseñas en GitHub 2023 <https://youtu.be/bT9Wfg-IrGM>`_
+
 
 
 :Videos recomendados:

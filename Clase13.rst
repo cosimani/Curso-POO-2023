@@ -4,7 +4,7 @@
 
 Clase 13 - POO 2023
 ===================
-(Fecha: 6 de mayo)
+(Fecha: 11 de mayo)
 
 
 Registro en video de algunos temas de la clase de hoy
@@ -13,7 +13,6 @@ Registro en video de algunos temas de la clase de hoy
 `webservice network QIODevice QUrl 2021 <https://youtu.be/gX-DEWwXvh4>`_
 
 `QNetworkAccessManager imagen de internet 2021 <https://youtu.be/JtENM7t2zxE>`_
-
 
 
 Web Service
@@ -91,7 +90,7 @@ Clase QNetworkAccessManager
 - Por defecto, el módulo 'gui' y el módulo 'core' están incluidos.
 - Para utilizar HTTPS, Qt utiliza OpenSSL https://www.openssl.org/source
 	- Se puede descargar desde https://slproweb.com/products/Win32OpenSSL.html
-	- Por ejemplo, para 64 bits elegir `Win64 OpenSSL v1.1.1g <https://slproweb.com/download/Win64OpenSSL-1_1_1g.exe>`_
+	- Por ejemplo, para 64 bits elegir `Win64 OpenSSL v1.1.1t <https://slproweb.com/download/Win64OpenSSL-1_1_1t.exe>`_
 
 Clase QIODevice
 ^^^^^^^^^^^^^^^

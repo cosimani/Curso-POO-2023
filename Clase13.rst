@@ -139,7 +139,7 @@ Clase QNetworkProxyFactory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Permite configurar un servidor proxy a nuestra aplicación Qt.
-- Lo siguiente utiliza la configuración del sistema (Chrome y IE, no Firefox).
+- Lo siguiente utiliza la configuración del sistema (Chrome y Edge, no Firefox, ¿Opera?, ¿Brave?).
 
 .. code-block:: c
 

@@ -6,6 +6,10 @@ Clase 11 - POO 2023
 ===================
 (Fecha: 4 de mayo)
 
+Registro en video de algunos temas de la clase de hoy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`POO 2023 - Array como parámetros - QTextEdit y aritmética de punteros 2023 <https://youtu.be/FzbxG3KJkdE>`_
 
 
 

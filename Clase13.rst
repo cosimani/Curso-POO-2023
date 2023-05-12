@@ -14,6 +14,8 @@ Registro en video de algunos temas de la clase de hoy
 
 `QNetworkAccessManager imagen de internet 2021 <https://youtu.be/JtENM7t2zxE>`_
 
+`QNetworkAccessManager y colocar imagen en login 2023 <https://youtu.be/JtENM7t2zxE>`_
+
 
 Web Service
 ^^^^^^^^^^^

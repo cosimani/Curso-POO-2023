@@ -13,6 +13,10 @@ Registro en video de algunos temas de la clase de hoy
 
 `Riesgos de publicar contraseñas en GitHub 2023 <https://youtu.be/bT9Wfg-IrGM>`_
 
+`Preprocesador y guardían de inclusión múltiple 2023 <https://youtu.be/75RIKDem8NI>`_
+
+
+
 
 
 :Videos recomendados:

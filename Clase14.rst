@@ -12,6 +12,10 @@ Registro en video de algunos temas de la clase de hoy
 
 `Derivadas - Constructor explícito 2021 <https://www.youtube.com/watch?v=O2mCsBB_gro>`_
 
+`POO 2023 - Clases derivadas, constructor, destructor, constructor explícito 2023 <https://youtu.be/wZ8qYYaAbzA>`_
+
+
+
 
 
 Clases derivadas 

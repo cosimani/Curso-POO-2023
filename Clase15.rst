@@ -14,6 +14,14 @@ Registro en video de algunos temas de la clase de hoy
 
 
 
+Vista obligatoria
+^^^^^^^^^^^^^^^^^
+
+`Funciones virtuales 2023 <https://youtu.be/a5-p12-jscc>`_
+
+
+
+
 Polimorfismo
 ============
 
@@ -48,7 +56,7 @@ Polimorfismo
 
 
 	#include <QApplication>
-	#include "personal.h"
+	#include "persona.h"
 	#include <QDebug>
 
 	int main( int argc, char** argv )  {

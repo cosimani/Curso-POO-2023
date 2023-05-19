@@ -336,6 +336,13 @@ Función virtual pura y clase abstracta
 
 
 
+Consultar desde Qt a la API de MercadoLibre
+===========================================
+
+`- Leer todo esto <https://docs.google.com/document/d/1ATjSHeM1oHkdUUeX_qUvtjvnbbopGx3j8XjMl0bXzCQ/edit?usp=sharing>`_
+
+
+
 Ejercicio 24
 ============
 

@@ -12,6 +12,11 @@ Registro en video de algunos temas de la clase de hoy
 
 `Polimorfismo función virtual 2021 <https://youtu.be/wT_LfW-Ao0A>`_
 
+`Polimorfismo - QtDesigner y métodos virtuales de QWidget 2023 <https://youtu.be/idc1aCpYUgg>`_
+
+
+
+
 
 
 Vista obligatoria

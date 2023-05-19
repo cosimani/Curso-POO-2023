@@ -336,8 +336,35 @@ Función virtual pura y clase abstracta
 
 
 
+Ejercicio 24
+============
+
+- Diseñar una aplicación para una galería de fotos
+- Debe tener una base con una tabla 'imagenes' que tenga las URLs de imágenes
+- Un botón >> y otro << para avanzar o retroceder en la galería de fotos
+- Se podrá navegar sobre las fotos que se descargarán desde internet
 
 
+
+Ejercicio 25
+============
+
+- Crear el siguiente método dentro de la clase AdminDB:
+
+.. code-block:: c	
+	
+	/**
+	 * @brief Método que ejecuta una consulta SQL a la base de datos que ya se encuentra conectado. 
+	          Utiliza QSqlQuery para ejecutar la consulta, con el método next() se van extrayendo 
+	          los registros que pueden ser analizados con QSqlRecord para conocer la cantidad de 
+	          campos por registro.
+	 * @param comando es una consulta como la siguiente: SELECT nombre, apellido, id FROM usuarios
+	 * @return Devuelve un QVector donde cada elemento es un registro, donde cada uno de estos registros 
+	           están almacenados en un QStringList que contiene cada campo de cada registro.	           
+	 */
+	QVector< QStringList > select( QString comando ); 
+
+- Este método será útil para ejecutar cualquier select sin tener que escribir el comando SQL
 
 
 

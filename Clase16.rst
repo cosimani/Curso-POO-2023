@@ -10,6 +10,10 @@ Clase 16 - POO 2023
 Registro en video de algunos temas de la clase de hoy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+
+`SQLite, AdminDB y función virtual pura 2023 <https://youtu.be/sJu1Icc4rkQ>`_
+
+
 `Base de datos 2021 <https://youtu.be/tgPejo-NV-Y>`_
 
 `AdminDB - https://youtu.be/vvGJMZbvM6Q <https://youtu.be/vvGJMZbvM6Q>`_ 

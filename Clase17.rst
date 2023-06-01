@@ -10,6 +10,8 @@ Registro en video de algunos temas de la clase de hoy
 =====================================================
 
 
+`MD5 - AdminDB mostrarTabla - signals propias 2023 <https://youtu.be/ho4nMxIDDU8>`_
+
 `MD5 e independizar del SO 2021 <https://youtu.be/I4onYdM0Enk>`_
 
 `Práctica con MD5 y base de datos 2021 <https://youtu.be/nLHdT_-8Afk>`_

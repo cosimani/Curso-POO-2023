@@ -100,79 +100,6 @@ http://www.md5.cz/
 - `Consultar datos <https://www.youtube.com/watch?v=8emd37mvN2E>`_
 
 
-
-Señales propias
-^^^^^^^^^^^^^^^
-
-- Si necesitamos enviar una señal se utiliza la palabra reservada ``emit``.
-
-.. code-block:: c	
-
-	int i = 5;
-	emit signal_enviarEntero( i );
-
-
-- La función ``enviarEntero( int a )`` debe estar declarada con el modificador de acceso ``signals``
-
-.. code-block:: c	
-
-	signals:
-	    void signal_enviarEntero( int );
-
-
-- No olvidarse de la macro ``Q_OBJECT`` para permitir a esta clase usar signals y slots.
-- Las signals deben ser compatibles en sus parámetros con los slots a los cuales se conecten.
-- Solamente se declara esta función (Qt se encarga de definirla).
-
-
-Ejercicio 26
-============
-
-- Implementar el siguiente método de AdminDB en un proyecto que tenga un login y valide los usuarios contra la base de datos.
-- La clave debe estar en MD5.
-- Hacer los cambios necesarios en este método para su funcionalidad correcta.
-
-.. code-block:: c	
-	
-	/**
-	 * Si el usuario y clave son crrectas, este metodo devuelve el nombre y 
-	 * apellido en un QStringList.	           
-	 */
-	QStringList AdminDB::validarUsuario( QString tabla,	QString usuario, QString clave )  {
-
-	    QStringList datosPersonales;
-
-	    if ( ! db.isOpen() ) 
-	        return datosPersonales;
-
-	    QSqlQuery * query = new QSqlQuery( db );
-	    QString claveMd5 = QCryptographicHash::hash( clave.toUtf8(), 
-	                                                 QCryptographicHash::Md5 ).toHex();
-
-	    query->exec( "SELECT nombre, apellido FROM " +
-	                 tabla + " WHERE usuario = '" + usuario +
-	                 "' AND clave = '" + claveMd5 + "'" );
-	
-	    while( query->next() )  {
-	        QSqlRecord registro = query->record();
-
-	        datosPersonales << query->value( registro.indexOf( "nombre" ) ).toString();
-	        datosPersonales << query->value( registro.indexOf( "apellido" ) ).toString();
-	    }
-
-	    return datosPersonales;
-	} 
-
-
-Ejercicio 27
-============
-
-- Realizar una interfaz que permita colocar en un ``QLineEdit`` la url de una página web
-- Validar que si el usuario no escribe el www, que lo agregue, y si no coloca https://, que lo agregue
-
-
-
-
 **Ejemplo de método mostrarTabla para la clase AdminDB**
 
 .. code-block:: c
@@ -257,6 +184,79 @@ Ejercicio 27
 	        qDebug() << "No se encuentra conectado a la base";
 	}
 
+
+
+
+
+
+Señales propias
+^^^^^^^^^^^^^^^
+
+- Si necesitamos enviar una señal se utiliza la palabra reservada ``emit``.
+
+.. code-block:: c	
+
+	int i = 5;
+	emit signal_enviarEntero( i );
+
+
+- La función ``enviarEntero( int a )`` debe estar declarada con el modificador de acceso ``signals``
+
+.. code-block:: c	
+
+	signals:
+	    void signal_enviarEntero( int );
+
+
+- No olvidarse de la macro ``Q_OBJECT`` para permitir a esta clase usar signals y slots.
+- Las signals deben ser compatibles en sus parámetros con los slots a los cuales se conecten.
+- Solamente se declara esta función (Qt se encarga de definirla).
+
+
+Ejercicio 26
+============
+
+- Implementar el siguiente método de AdminDB en un proyecto que tenga un login y valide los usuarios contra la base de datos.
+- La clave debe estar en MD5.
+- Hacer los cambios necesarios en este método para su funcionalidad correcta.
+
+.. code-block:: c	
+	
+	/**
+	 * Si el usuario y clave son crrectas, este metodo devuelve el nombre y 
+	 * apellido en un QStringList.	           
+	 */
+	QStringList AdminDB::validarUsuario( QString tabla,	QString usuario, QString clave )  {
+
+	    QStringList datosPersonales;
+
+	    if ( ! db.isOpen() ) 
+	        return datosPersonales;
+
+	    QSqlQuery * query = new QSqlQuery( db );
+	    QString claveMd5 = QCryptographicHash::hash( clave.toUtf8(), 
+	                                                 QCryptographicHash::Md5 ).toHex();
+
+	    query->exec( "SELECT nombre, apellido FROM " +
+	                 tabla + " WHERE usuario = '" + usuario +
+	                 "' AND clave = '" + claveMd5 + "'" );
+	
+	    while( query->next() )  {
+	        QSqlRecord registro = query->record();
+
+	        datosPersonales << query->value( registro.indexOf( "nombre" ) ).toString();
+	        datosPersonales << query->value( registro.indexOf( "apellido" ) ).toString();
+	    }
+
+	    return datosPersonales;
+	} 
+
+
+Ejercicio 27
+============
+
+- Realizar una interfaz que permita colocar en un ``QLineEdit`` la url de una página web
+- Validar que si el usuario no escribe el www, que lo agregue, y si no coloca https://, que lo agregue
 
 
 

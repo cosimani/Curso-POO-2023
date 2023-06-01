@@ -14,7 +14,7 @@ Registro en video de algunos temas de la clase de hoy
 
 `Práctica con MD5 y base de datos 2021 <https://youtu.be/nLHdT_-8Afk>`_
 
-`Señales propias - https://youtu.be/4aSg0uv4zdw <https://youtu.be/4aSg0uv4zdw>`_ 
+`Señales propias 2022 <https://youtu.be/4aSg0uv4zdw>`_ 
 
 
 

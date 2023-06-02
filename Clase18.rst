@@ -9,6 +9,10 @@ Clase 18 - POO 2023
 Registro en video de algunos temas de la clase de hoy
 =====================================================
 
+
+
+`Enum - Manager - QtDesigner con clase propia - signals propias 2023 - <https://youtu.be/pYFpLLU4dJM>`_ 
+
 `Enumeraciones - https://youtu.be/pD5sbMKiGSM <https://youtu.be/pD5sbMKiGSM>`_ 
 
 `QTimer - https://youtu.be/3flYMoF0mNU <https://youtu.be/3flYMoF0mNU>`_ 

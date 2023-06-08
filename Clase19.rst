@@ -194,3 +194,9 @@ https://campusvirtual.learningway.com.ar/webservice/rest/server.php?wstoken=aqui
 
 - Solicitar el token vía whatsapp
 
+
+Ayuda para API de MercadoLibre
+==============================
+
+`API Mercado Libre. Crear aplicación, obtener token, peticiones usando Postman <https://www.youtube.com/watch?v=lvPAGzUFacE>`_ 
+

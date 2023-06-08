@@ -179,6 +179,8 @@ Entrega Nro. 5 (para entrega final)
 - Es continuación de las entregas anteriores
 - Para equipos de **2 estudiantes**, agregar lo que se indica en la sección Moodle.
 - Para equipos de **3 estudiantes**, además de agregar la sección Moodle, agregar el parser.
+- Las rúbricas de evaluación fueron publicadas en la `Clase 01 - POO 2023 <https://github.com/cosimani/Curso-POO-2023/blob/main/Clase01.rst>`_
+- Son estas: `Rública Proyecto individual <https://docs.google.com/spreadsheets/d/1VZ3W91dbWRvWtav-Dr_NQjoCbTZx4DoiQCf9GN6OJX8/edit?usp=share_link>`_ y `Rúbrica Proyecto grupal <https://docs.google.com/spreadsheets/d/1hIZHseh0gT1SujRvPCBrctL8YzdA9tgLtqfP3rcKYeo/edit?usp=share_link>`_ 
 
 
 
@@ -199,4 +201,7 @@ Ayuda para API de MercadoLibre
 ==============================
 
 `API Mercado Libre. Crear aplicación, obtener token, peticiones usando Postman <https://www.youtube.com/watch?v=lvPAGzUFacE>`_ 
+
+
+
 

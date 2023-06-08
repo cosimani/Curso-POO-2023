@@ -166,8 +166,31 @@ Ejercicio 32
 Ejercicio 33
 ============
 
-- Crear un parser que pueda analizar cualquier html en busca de todas las URLs que encuentre
+- Crear un **parser** que pueda analizar cualquier html en busca de todas las URLs que encuentre
 - Crear una GUI que permita al usuario ingresar un sitio web en un QLineEdit
 - Que descargue en archivos todos los recursos de dicho sitio web
 - Es decir, que busque en el html las imágenes, los css, los javascript y los descargue en archivos
 - Que le permita al usuario indicar en qué directorio descargar los archivos
+
+
+Entrega Nro. 5 (para entrega final)
+===================================
+
+- Es continuación de las entregas anteriores
+- Para equipos de **2 estudiantes**, agregar lo que se indica en la sección Moodle.
+- Para equipos de **3 estudiantes**, además de agregar la sección Moodle, agregar el parser.
+
+
+
+Moodle
+======
+
+- Incorporar a la base de datos en la API propia, la información del mail del usuario.
+- Cuando un usuario se valide en la aplicación Qt, deberá mostrar la foto de perfil del usuario
+- Esta foto de perfil está en la información de la cuenta de usuario en Moodle
+- Esta foto de perfil se consulta con la siguiente URL:
+
+https://campusvirtual.learningway.com.ar/webservice/rest/server.php?wstoken=aqui_va_el_token&wsfunction=core_user_get_users&moodlewsrestformat=json&criteria[0][key]=email&criteria[0][value]=cesarosimani@gmail.com
+
+- Solicitar el token vía whatsapp
+

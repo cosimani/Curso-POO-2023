@@ -12,7 +12,7 @@ Registro en video de algunos temas de la clase de hoy
 
 `const 2021 <https://youtu.be/UqXE4GeFd_s>`_ 
 
-`QFile 2021 - https://youtu.be/Zf-yAkNmqso <https://youtu.be/Zf-yAkNmqso>`_ 
+`QFile 2021 <https://youtu.be/Zf-yAkNmqso>`_ 
 
 
 const

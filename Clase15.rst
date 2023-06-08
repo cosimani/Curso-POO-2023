@@ -15,16 +15,10 @@ Registro en video de algunos temas de la clase de hoy
 `Polimorfismo - QtDesigner y métodos virtuales de QWidget 2023 <https://youtu.be/idc1aCpYUgg>`_
 
 
-
-
-
-
 Vista obligatoria
 ^^^^^^^^^^^^^^^^^
 
 `Funciones virtuales 2023 <https://youtu.be/a5-p12-jscc>`_
-
-
 
 
 Polimorfismo
@@ -206,7 +200,7 @@ Entrega Nro. 4 (para el 1 y/o 2 de junio)
 - Es continuación de la entrega nro. 3
 - Agregar un checkbox que agregue la funcionalidad de Recordarme. Con esta opción tildada, se deberá almacenar el usuario y clave en una base de datos local en SQLite. Cuando un usuario coloque su nombre de usuario, al salir de foco del QLineEdit del usuario, deberá completar automáticamente su contraseña, siempre y cuando, en un inicio de sesión anterior haya tildado el checkbox de Recordarme.
 - Registrarse en el Moodle que se pasó en clases. Crear un usuario ahí, con su mail y completar correctamente sus datos. Importante subir una foto de perfil correcta.
-- Agregar la funcionalidad en su aplicación Qt para registrar nuevos usuarios. En el momento de registro de un usuario en la Aplicación de Qt, deberá chequear que no exista un usuario con ese mail en moodle, en caso de existir, que automáticamente se cargue en el formulario de Qt, los datos que ya fueron cargados en el registro de Moodle.
+
 
  
 

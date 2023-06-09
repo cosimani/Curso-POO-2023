@@ -173,8 +173,8 @@ Ejercicio 33
 - Que le permita al usuario indicar en qué directorio descargar los archivos
 
 
-Entrega Nro. 5 (para entrega final)
-===================================
+Entrega Nro. 5 (última entrega)
+===============================
 
 - Es continuación de las entregas anteriores
 - Para equipos de **2 estudiantes**, agregar lo que se indica en la sección Moodle.

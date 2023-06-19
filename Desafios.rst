@@ -35,9 +35,9 @@ Temas 1 - ``namespace, inline,  const``
 
 Temas 2 - ``std, vector, string``
 
-Temas 3 - ``Aritmética de punteros, Funciones genéricas y aritmética de punteros en papel``
+Temas 3 - ``Aritmética de punteros y Funciones genéricas``
 
-Temas 4 - ``Clase, herencia, herencia múltiple, Polimorfismo y clases en papel``
+Temas 4 - ``Clase, herencia, herencia múltiple, Polimorfismo``
 
 Temas 5 - ``Funciones virtuales, funciones virtuales puras y Clases abstractas``
 

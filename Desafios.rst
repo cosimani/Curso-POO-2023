@@ -28,8 +28,8 @@ Desafío 8 - `Clases <https://youtu.be/m76Alw6IYi4>`_ - Código `aquí <https://
 
 
 
-Temas para examen final
-=======================
+Temas téoricos/prácticos para examen final
+==========================================
 
 Temas 1 - ``namespace, inline,  const``
 
@@ -65,6 +65,10 @@ Modalidad de examen final
 -------------------------
 
 - La totalidad del examen se divide en el 50% para la sección Desafíos y el 50% para la parte Teórica.
-- **Desafíos:** Al momento de iniciado el examen en el campus, el docente elije uno de los desafíos para que el/la estudiante lo replique de manera exacta, tal cual lo hace el docente en el video. En la descripción de cada video se encuentra la explicación relacionada al tiempo en que se debe realizar el desafío.
-- **Teórico:** El docente elige uno de los temas teóricos y el/la estudiante explica el tema con los recursos que desee. Se puede utilizar código preconfeccionado, o programarlo en el momento a medida que explica el tema, puede utilizar el pizarrón, puede presentar en pantalla o puede utilizar dispositivas. El docente podrá realizar pedidos extras si considera que faltan cuestiones por cubrir.
+- **Desafíos:** Al momento de iniciado el examen en el campus, el docente elije uno de los desafíos para que el/la estudiante lo replique de manera exacta, tal cual lo hace el docente en el video, es decir, que la funcionalidad de la aplicación tenga las mismas características y funcionalidades, y que la resolución sea confeccionada con los mismos recursos de programación. En la descripción de cada video se encuentra la explicación relacionada al tiempo en que se debe realizar el desafío. 
+- **Teórico/Práctico:** El docente elige uno de los temas teóricos/prácticos y el/la estudiante explica el tema con los recursos que desee. Se puede utilizar código preconfeccionado, programarlo en el momento a medida que explica el tema, puede utilizar el pizarrón o puede presentar con el proyector. El docente podrá realizar pedidos extras si considera que faltan cuestiones por cubrir. Se puede solicitar en el momento que se desarrolle alguna aplicación con un enunciado espontáneo. 
 
+Alternativa para laa entrega de desafíos
+----------------------------------------
+
+- El/la estudiante puede presentar todos los desafíos en videos en un lista de Youtube. Deben ser entregados 48 horas antes del examen. Los desafíos deben estar resueltos todos sin sobrepasar el tiempo que se indica en la descripción de los videos. Los videos se pueden graba con OBS, con la cámara visualizada en pantalla y compartiendo la pantalla completa.

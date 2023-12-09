@@ -68,7 +68,7 @@ Modalidad de examen final
 - **Desafíos:** Al momento de iniciado el examen en el campus, el docente elije uno de los desafíos para que el/la estudiante lo replique de manera exacta, tal cual lo hace el docente en el video, es decir, que la funcionalidad de la aplicación tenga las mismas características y funcionalidades, y que la resolución sea confeccionada con los mismos recursos de programación. En la descripción de cada video se encuentra la explicación relacionada al tiempo en que se debe realizar el desafío. 
 - **Teórico/Práctico:** El docente elige uno de los temas teóricos/prácticos y el/la estudiante explica el tema con los recursos que desee. Se puede utilizar código preconfeccionado, programarlo en el momento a medida que explica el tema, puede utilizar el pizarrón o puede presentar con el proyector. El docente podrá realizar pedidos extras si considera que faltan cuestiones por cubrir. Se puede solicitar en el momento que se desarrolle alguna aplicación con un enunciado espontáneo. 
 
-Alternativa para laa entrega de desafíos
+Alternativa para la entrega de desafíos
 ----------------------------------------
 
-- El/la estudiante puede presentar todos los desafíos en videos en un lista de Youtube. Deben ser entregados 48 horas antes del examen. Los desafíos deben estar resueltos todos sin sobrepasar el tiempo que se indica en la descripción de los videos. Los videos se pueden graba con OBS, con la cámara visualizada en pantalla y compartiendo la pantalla completa.
+- El/la estudiante puede presentar todos los desafíos en videos en una lista de Youtube. Deben ser entregados 48 horas antes del examen. Se deben entregar todos los desafíos y sin sobrepasar el tiempo que se indica en la descripción de los videos. Los videos se pueden grabar con OBS, con la cámara visualizada en pantalla y compartiendo la pantalla completa.
